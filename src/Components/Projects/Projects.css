@@ -1,0 +1,28 @@
+.projects{
+    margin: 40px;
+}
+.projects-content h1{
+    color:rgba(47, 141, 255, 0.692);
+    margin-bottom: 40px;
+}
+.projects-info-desc img{
+    width: 350px;
+    height: 250px;
+}
+.projects-content-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+}
+.projects-info-desc img{
+    border-radius: 8px;
+}
+.projects-info-desc p{
+    font-size: 20px;
+}
+.text{
+    color:blue;
+    margin: -32px 0px 30px 0px;
+    
+
+}

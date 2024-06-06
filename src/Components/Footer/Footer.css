@@ -1,0 +1,30 @@
+
+.footer{
+    margin: 60px 0px 40px 0px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-bottom:10px;
+}
+.footer hr{
+    width:150px;
+    background-color: black;
+    margin:auto;
+}
+.footer-foot-content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    margin-top: 10px;
+}
+.footer-foot-content .para{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.heart{
+    color:red;
+}

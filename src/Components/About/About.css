@@ -1,0 +1,46 @@
+.about{
+    margin: 40px 40px 72px 40px;
+}
+.about-heading{
+    color:rgba(47, 141, 255, 0.692);
+
+}
+.about-info-mean{
+    margin:10px 40px 0px 0px;;
+
+}
+.about-info-text h2{
+    margin: 20px 40px 0px 0px;
+    color: rgba(47, 141, 255, 0.692);
+}
+.about-info-text-2{
+    margin: 20px 40px 0px 0px;
+    color: rgba(47, 141, 255, 0.692);
+
+}
+.about-ul li{
+    list-style: none;
+}
+.about-value{
+    margin-bottom:10px;
+}
+.about-info-text-2 ul li{
+    color:white;
+}
+.about-ul{
+    margin:20px 40px 0px 0px;
+}
+.about-ul span{
+    margin-left: 60px;
+}
+.about-sp{
+    margin-left: -40px;
+}
+.h-text h2{
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+.h-text li{
+    list-style: none;
+    
+}

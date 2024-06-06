@@ -1,0 +1,66 @@
+.contact{
+    margin:40px 40px 60px 40px;
+}
+.contact-in h1{
+    margin-bottom: 20px;
+    color: rgba(47, 141, 255, 0.692);
+    
+}
+.contact p{
+    font-size:15px;
+    font-weight:550 ;
+    color:white;
+}
+.contact-msg{
+    height: 275px;
+    width: 230px;
+    margin-left: 520px;
+    display:grid;
+    background-color:rgb(0, 255, 179);
+    text-align: start;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.contact-msg-heading{
+    font-size: 15px;
+    margin:10px 0px 0px 0px;
+    color: black;
+
+}
+.contact-msg-info{
+    margin-top: 10px;
+}
+.contact-msg-info p{
+    font-size: 12px;
+    font-weight:bold;
+    margin-top: 5px;
+    color: black;
+  
+}
+.contact-msg-info input{
+    border-radius: 6px;
+    border:none;
+    outline: white;
+    padding: 5px;
+    width: 85%;
+    margin-bottom:10px;
+}
+.contact-msg-info textarea{
+    border-radius: 6px;
+    border:none;
+    outline: white;
+    padding: 5px;
+    width: 85%;
+    font-size: 12px;
+}
+.contact-msg-info button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
+    width: 50px;
+    font-size: 13px;
+    margin-top: 10px;
+}
