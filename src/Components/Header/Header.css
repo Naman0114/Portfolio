@@ -21,7 +21,7 @@
     
 }
 .header-section-info-1 span{
-    color: red;
+    color:orangered;
     margin-top: 5px;
     font-size:36px;
 }
@@ -36,6 +36,17 @@
     justify-content:space-between;
     align-items: center;
     margin: 20px 0px 60px 0px;
+}
+.header-section-info-2{
+    animation: 1s fadeIn;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
 }
 .header-section-left-info h5{
     font-weight: 500;

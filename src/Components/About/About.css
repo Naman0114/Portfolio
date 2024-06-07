@@ -25,7 +25,8 @@
     margin-bottom:10px;
 }
 .about-info-text-2 ul li{
-    color:white;
+    color:black;
+    list-style: none;
 }
 .about-ul{
     margin:20px 40px 0px 0px;
@@ -37,10 +38,7 @@
     margin-left: -40px;
 }
 .h-text h2{
-    color: white;
+    color:black;
     margin: 10px 0px 10px 0px;
 }
-.h-text li{
-    list-style: none;
-    
-}
+
