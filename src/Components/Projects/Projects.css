@@ -1,29 +1,90 @@
-.projects{
+.projects {
     margin: 3vmax 4vmax 4vmax 3vmax;
 }
-.projects-content h1{
-    color:rgba(47, 141, 255, 0.692);
+
+.projects-content h1 {
+    color: rgba(47, 141, 255, 0.692);
     margin-bottom: 2vmax;
 }
-.projects-info-desc img{
+
+.projects-info-desc img {
     width: 30.5vmax;
     height: 20.5vmax;
     border-radius: 0.8vmax;
 }
-.projects-content-info{
+
+.projects-content-info {
     display: grid;
-    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));;
-    gap:4vmax;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    ;
+    gap: 4vmax;
 }
 
-.projects-info-desc p{
+.projects-info-desc p {
     font-size: 1.2vmax;
 }
-.text{
-    color:blue;
+
+.text {
+    color: blue;
     margin: -2.8vmax 0vmax 3vmax 1vmax;
     font-size: bolder;
     font-size: 4vmax;
-    
+}
 
+@media(max-width:900px) {
+    .projects-content-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        ;
+        gap: 3vmax;
+    }
+
+
+    @media(max-width:1050px) {
+        .projects-content-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1vmax;
+        }
+    }
+
+
+}
+
+@media(max-width:670px) {
+    .projects-content-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1.5fr));
+        ;
+        gap: 4vmax;
+    }
+}
+
+@media(max-width:480px) {
+    .projects-content-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 10vmax;
+    }
+}
+@media(max-width:435px) {
+    .projects-content-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(110px, 1.5fr));
+        gap: 16vmax;
+    }
+}
+@media(max-width:375px) {
+    .projects-content-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1.5fr));
+        gap: 15vmax;
+    }
+}
+@media(max-width:360px) {
+    .projects-content-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1.5fr));
+        gap: 3vmax;
+    }
 }

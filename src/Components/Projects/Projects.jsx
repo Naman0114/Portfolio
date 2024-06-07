@@ -17,7 +17,6 @@ const Footer=()=>{
 
         </div>
     </div>
-    <hr/>
     </>
 
 }

@@ -1,4 +1,6 @@
+import img8 from './Line_bar.jpg'
 import img1 from './Naman.jpeg'
+import img9 from './cross_icon.jpg'
 import img3 from './img1.jpg'
 import img2 from './img2.jpg'
 import img4 from './img3.jpg'
@@ -8,7 +10,9 @@ import img7 from './img6.jpg'
 
 export const assets = {
     img1,
-    img2
+    img2,
+    img8,
+    img9
 }
 
 export const projectList = [{

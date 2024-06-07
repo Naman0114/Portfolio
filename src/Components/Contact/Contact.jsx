@@ -22,6 +22,7 @@ const Contact = () => {
 
         if (res.success) {
             console.log("success", res);
+            alert("Message send successfully")
         }
     };
 
@@ -49,7 +50,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
-        <hr />
+        
 
     </>
 

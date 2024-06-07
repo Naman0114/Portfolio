@@ -1,68 +1,95 @@
-.header-section{
+.header-section {
     display: flex;
-    width:100%;
+    width: 100%;
     font-size: 1.5vmax;
     margin-bottom: 1vmax;
     margin-top: -2vmax;
 }
-.header-section-left{
+
+.header-section-left {
     margin: 10vmax 2vmax 0vmax 3vmax;
-   
+
 }
-.header-section-info span{
+
+.header-section-info span {
     margin-bottom: 0.3vmax;
 }
-.header-section-left span{
+
+.header-section-left span {
     font-weight: 500;
 }
+
 .header-section-info-1 {
     display: flex;
-    gap:1vmax;
-    
+    gap: 1vmax;
+
 }
-.header-section-info-1 span{
-    color:orangered;
+
+.header-section-info-1 span {
+    color: orangered;
     margin-top: 0.5vmax;
-    font-size:3vmax;
+    font-size: 3vmax;
 }
-.header-sec-right-image img{
+
+.header-sec-right-image img {
     width: 22vmax;
     height: 30vmax;
-    margin: 8vmax 12vmax 0vmax 4vmax ;
+    margin: 8vmax 12vmax 0vmax 4vmax;
     border-radius: 50%;
 }
-.header-section-left-bottom{
+
+.header-section-left-bottom {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 2vmax 0vmax 6vmax 0vmax;
 }
-.header-section-info-2{
+
+.header-section-info-2 {
     animation: 1s fadeIn;
 }
+
 @keyframes fadeIn {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
-        opacity:1;
+
+    100% {
+        opacity: 1;
     }
 }
-.header-section-left-info h5{
+
+.header-section-left-info h5 {
     font-weight: 500;
     font-size: 2vmax;
 }
-.header-section-icon-left{
+
+.header-section-icon-left {
     display: flex;
-    gap:2vmax;
+    gap: 2vmax;
     margin-top: 2vmax;
 }
-.header-section-right-info h5{
+
+.header-section-right-info h5 {
     font-weight: 500;
     font-size: 2vmax;
 }
-.header-section-icon-right{
+
+.header-section-icon-right {
     display: flex;
-    gap:2vmax;
+    gap: 2vmax;
     margin: 2vmax 0vmax 0vmax 2vmax;
+}
+
+@media (max-width:480p) {
+    .header-sec-right-image img {
+        width: 20vmax;
+        height: 25vmax;
+        margin: 18vmax 5vmax 0vmax 4vmax;
+
+    }
+
+    .header-section {
+        font-size: 0.3vmax;
+    }
 }
