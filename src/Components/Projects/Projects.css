@@ -1,28 +1,29 @@
 .projects{
-    margin: 40px;
+    margin: 3vmax 4vmax 4vmax 3vmax;
 }
 .projects-content h1{
     color:rgba(47, 141, 255, 0.692);
-    margin-bottom: 40px;
+    margin-bottom: 2vmax;
 }
 .projects-info-desc img{
-    width: 350px;
-    height: 250px;
+    width: 30.5vmax;
+    height: 20.5vmax;
+    border-radius: 0.8vmax;
 }
 .projects-content-info{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:40px;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));;
+    gap:4vmax;
 }
-.projects-info-desc img{
-    border-radius: 8px;
-}
+
 .projects-info-desc p{
-    font-size: 20px;
+    font-size: 1.2vmax;
 }
 .text{
     color:blue;
-    margin: -32px 0px 30px 0px;
+    margin: -2.8vmax 0vmax 3vmax 1vmax;
+    font-size: bolder;
+    font-size: 4vmax;
     
 
 }

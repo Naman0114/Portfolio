@@ -1,16 +1,16 @@
 
 .footer{
-    margin: 60px 0px 40px 0px;
+    margin: 4vmax 0vmax 5vmax 0vmax;
 }
 .footer-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
-    margin-bottom:10px;
+    gap:1.1vmax;
+    margin-bottom:1vmax;
 }
 .footer hr{
-    width:150px;
+    width:17vmax;
     background-color: black;
     margin:auto;
 }
@@ -18,12 +18,12 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    font-size:15px;
-    margin-top: 10px;
+    font-size:1.2vmax;
+    margin-top: 1vmax;
 }
 .footer-foot-content .para{
-    margin-left: 20px;
-    margin-top: 5px;
+    margin-left: 2vmax;
+    margin-top: 0.5vmax;
 }
 .heart{
     color:red;
