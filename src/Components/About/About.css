@@ -45,4 +45,17 @@
     margin: 1vmax 0vmax 1vmax 0vmax;
     font-size: 1.4vmax;
 }
+@media(max-width:480px){
+    .about-heading{
+        font-size: 1.4vmax;
+    }
+    .about-info-text{
+        font-size: 1.4vmax;
+    }
+    .about-info-text-2 h2{
+        font-size: 2.2vmax;
+    }
+
+    }
+
 

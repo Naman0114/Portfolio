@@ -94,6 +94,9 @@
     .contact-msg{
         margin-left:125px;
         }
+    .contact-in h1{
+        font-size: 2.6vmax;
+    }
 }
 
 @media (max-width:460px){
