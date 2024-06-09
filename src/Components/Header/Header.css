@@ -5,13 +5,21 @@
     margin-bottom: 1vmax;
     margin-top: -2vmax;
 }
+.header-sec-middle-image img {
+    width: 14vmax;
+    height: 15vmax;
+    margin: 8vmax 0vmax 0vmax 45vmax;
+    border-radius:40%;
+    border: 1px solid antiquewhite;
+}
 
 .header-section-left {
-    margin: 10vmax 2vmax 0vmax 3vmax;
+    margin: -16vmax 2vmax 0vmax 4vmax;
 
 }
 
 .header-section-info span {
+    font-weight: 500;
     margin-bottom: 0.3vmax;
 }
 
@@ -27,157 +35,20 @@
 
 .header-section-info-1 span {
     color: orangered;
-    margin-top: 0.5vmax;
-    font-size: 3vmax;
-}
-
-.header-sec-right-image img {
-    width: 22vmax;
-    height: 30vmax;
-    margin: 8vmax 12vmax 0vmax 4vmax;
-    border-radius: 50%;
+    margin-top: 0.3vmax;
+    font-size: 2vmax;
 }
 
 .header-section-left-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:grid;
     margin: 2vmax 0vmax 6vmax 0vmax;
 }
-
-.header-section-info-2 {
-    animation: 1s fadeIn;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.header-section-left-info h5 {
+.header-section-left-bottom h5 {
     font-weight: 500;
     font-size: 2vmax;
 }
-
-.header-section-icon-left {
-    display: flex;
-    gap: 2vmax;
-    margin-top: 2vmax;
-}
-
-.header-section-right-info h5 {
-    font-weight: 500;
-    font-size: 2vmax;
-}
-
-.header-section-icon-right {
+.header-section-icon {
     display: flex;
     gap: 2vmax;
     margin: 2vmax 0vmax 0vmax 2vmax;
-}
-
-@media (max-width:650px) {
-    .header-sec-right-image img {
-        width: 18vmax;
-        height: 22vmax;
-        margin: 10vmax 8vmax 0vmax 4vmax;
-
-    }
-
-    .header-section {
-        font-size: 1.2vmax;
-    }
-
-    .header-section-info-1 span {
-        color: orange;
-        margin-top: 0.1vmax;
-        font-size: 2vmax;
-    }
-
-    .header-section-info-1 h1 {
-        font-size: 1.5vmax;
-        margin-top: 0.9vmax;
-    }
-}
-
-@media (max-width:590px) {
-    .header-sec-right-image img {
-        width: 22vmax;
-        height: 24vmax;
-        margin: 8vmax 4vmax 0vmax 15vmax;
-
-    }
-    .header-section-info-2 {
-        display: none;
-    }
-
-    .header-section {
-        font-size: 1.8vmax;
-    }
-
-    .header-section-info-1 span {
-        color: orange;
-        margin-top: 0.4vmax;
-        font-size: 2vmax;
-        
-    }
-
-    .header-section-info-1 h1 {
-        font-size: 1.7vmax;
-        margin-top: 0.6vmax;
-    }
-    .header-section-left-bottom h5{
-        font-size: 2vmax;
-    }
-    .header-section-icon-left  {
-        display: flex;
-        gap: 1.3vmax;
-        margin-top: 2vmax;
-    }
-    .header-section-left-bottom{
-        display: flex;
-        flex-direction: column;
-        gap:2vmax;
-        margin-top: 5vmax;
-    }
-    .header-section-left-info{
-        margin-left: -7vmax;
-    }
-}
-@media (max-width:520px) {
-    .header-sec-right-image img {
-        width: 20vmax;
-        height: 28vmax;
-        margin: 10vmax 4vmax 0vmax 15vmax;
-
-    }}
-    @media (max-width:390px) {
-        .header-sec-right-image img {
-            width: 20vmax;
-            height: 32vmax;
-            margin: 10vmax 12vmax 0vmax 15vmax;
-    
-        }
-        .header-section-info-1 span {
-            color: orange;
-            margin-top: 0.4vmax;
-            font-size: 1.4vmax;
-            
-        }
-    
-        .header-section-info-1 h1 {
-            font-size: 1.7vmax;
-            margin-top: 0.1vmax;
-    }
-    .header-section-left-bottom{
-        display: flex;
-        flex-direction: column;
-        gap:2vmax;
-        margin-top: 10vmax;
-    }
 }

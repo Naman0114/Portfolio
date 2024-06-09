@@ -1,27 +1,27 @@
 .about{
-    margin: 4vmax 4vmax 7vmax 3vmax;
+    margin: 4vmax 4vmax 7vmax 4vmax;
 }
 .about-heading{
-    color:rgba(47, 141, 255, 0.692);
+    color:orangered;
 
 }
 .about-info-mean{
     margin:1vmax 4vmax 0vmax 0vmax;
-    font-size: 1.2vmax;
+    font-size: 1.3vmax;
 
 }
 .about-info-text h2{
     margin: 2vmax 4vmax 0vmax 0vmax;
-    color: rgba(47, 141, 255, 0.692);
+    color: orangered;
 }
 .about-info-text-2{
     margin: 2vmax 4vmax 0vmax 0vmax;
-    color: rgba(47, 141, 255, 0.692);
+    color:orangered;
 
 }
 .about-ul li{
     list-style: none;
-    font-size: 1.2vmax;
+    font-size: 1.3vmax;
 }
 .about-value{
     margin-bottom:1vmax;
@@ -29,7 +29,7 @@
 .about-info-text-2 ul li{
     color:black;
     list-style: none;
-    font-size: 1.2vmax;
+    font-size: 1.3vmax;
 }
 .about-ul{
     margin:2vmax 4vmax 0vmax 0vmax;

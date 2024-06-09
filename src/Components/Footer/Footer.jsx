@@ -5,10 +5,10 @@ const Footer=()=>{
     return<>
     <div className="footer">
         <div className='footer-content'>
-        <FaFacebook />
-        <FaTwitter />
-        <FaSquareInstagram />
-        <FaLinkedin />
+        <FaFacebook  className="fb"/>
+        <FaTwitter className="twitter" />
+        <FaSquareInstagram className="insta"/>
+        <FaLinkedin className="linked"/>
         </div>
         <hr/>
         <div className='footer-foot-content'>

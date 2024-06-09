@@ -1,30 +1,67 @@
-
-.footer{
-    margin: 4vmax 0vmax 5vmax 0vmax;
+.footer {
+    width: 110%;
+    margin: 0vmax;
+    background-color: black;
+    color: white;
+    height: 15vmax;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:1.1vmax;
-    margin-bottom:1vmax;
+    padding-top: 3vmax;
+    margin-bottom: 0.4vmax;
+    gap: 2.1vmax;
+    cursor: pointer;
 }
-.footer hr{
-    width:17vmax;
+
+.footer-content .fb:hover {
+    transform: scale(1.2);
+}
+
+.footer-content .twitter:hover {
+    transform: scale(1.2);
+}
+
+.footer-content .insta:hover {
+    transform: scale(1.2);
+}
+
+.footer-content .linked:hover {
+    transform: scale(1.2);
+}
+
+.footer hr {
+    width: 17vmax;
     background-color: black;
-    margin:auto;
+    margin: auto;
 }
-.footer-foot-content{
+
+.footer-foot-content {
     display: grid;
     justify-content: center;
     align-items: center;
-    font-size:1.2vmax;
+    font-size: 1.2vmax;
     margin-top: 1vmax;
 }
-.footer-foot-content .para{
+
+.footer-foot-content .para {
     margin-left: 2vmax;
     margin-top: 0.5vmax;
 }
-.heart{
-    color:red;
+
+.heart {
+    color: red;
+}
+
+@media(max-width:470px) {
+    .footer {
+        width: 160%;
+    }
+}
+@media(max-width:320px) {
+    .footer {
+        width: 170%;
+    }
 }

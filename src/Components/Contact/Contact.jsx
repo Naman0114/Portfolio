@@ -22,13 +22,10 @@ const Contact = () => {
 
         if (res.success) {
             console.log("success", res);
-            alert("Message send successfully")
+            alert("Message send successfully");
         }
+        form.reset();
     };
-
-
-
-
     return <>
         <div className="contact">
             <div className="contact-in">

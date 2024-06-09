@@ -6,13 +6,13 @@
     color:black;
     height: 17vh;
     font-size: 1.3vmax;
+    font-weight: 500;
     margin-bottom: 1.5vmax;
-    margin-right: 30px;
     
 }
 .navbar-image{
     align-items: start;
-    margin:  1vmax 48vmax 0vmax 1vmax;
+    margin:  1vmax 35vmax 0vmax 0vmax;
 }
 .navbar-pics{
     display: flex;
@@ -35,6 +35,9 @@
     height: 4vmax;
     border-radius: 50%;
 }
+.navbar-image img:hover{
+    transform: scale(1.3);
+}
 .navbar-image p{
     font-size: 1vmax;
 }
@@ -49,20 +52,22 @@
 }
 
 .active{
-    padding-bottom: 0.2vmax;
-    border-bottom: 0.1vmax solid blue;
+    background-color:orange;
+    border-radius: 40%;
+    transition:0.3s;
     
 }
 
-@media(max-width:750px){
+@media(max-width:790px){
     .navbar-image{
-        margin:  1vmax 44vmax 0vmax 2vmax;
+        margin:  1vmax 30vmax 0vmax 4vmax;
     }
+    
 
 }
-@media(max-width:690px){
+@media(max-width:735px){
     .navbar-image{
-        margin:  1vmax 40vmax 0vmax 2vmax;
+        margin:  1vmax 28vmax 0vmax 4vmax;
     }
 
 }
@@ -103,33 +108,25 @@
         font-size: 1.3vmax;
     }
     .navbar-image{
-        margin:  1vmax 58vmax 0vmax 3vmax;
+        margin:  1vmax 110vmax 0vmax 3vmax;
     }
     .navbar-pics{
         margin-bottom: 1.8vmax;
+        margin-left:34vmax;
     }
 }
-@media(max-width:620px){
+@media(max-width:695px){
     .navbar-image{
-        margin:  1vmax 53vmax 0vmax 3vmax;
+        margin:  1vmax 25vmax 0vmax 3vmax;
     }
-
 }
-@media(max-width:590px){
+@media(max-width:655px){
     .navbar-image{
-        margin:  1vmax 48vmax 0vmax 3vmax;
+        margin:  1vmax 20vmax 0vmax 3vmax;
     }
-
 }
-@media(max-width:560px){
-    .navbar-image{
-        margin:  1vmax 45vmax 0vmax 3vmax;
-    }
-
-}
-@media(max-width:510px){
+@media(max-width:450px){
     .navbar-image{
         margin:  1vmax 40vmax 0vmax 3vmax;
     }
-
 }

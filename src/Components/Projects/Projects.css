@@ -1,9 +1,9 @@
 .projects {
-    margin: 3vmax 4vmax 4vmax 3vmax;
+    margin: 3vmax 5vmax 4vmax 4vmax;
 }
 
 .projects-content h1 {
-    color: rgba(47, 141, 255, 0.692);
+    color:orangered;
     margin-bottom: 2vmax;
 }
 
@@ -11,32 +11,35 @@
     width: 30.5vmax;
     height: 20.5vmax;
     border-radius: 0.8vmax;
+    cursor: pointer;
+    border: 1px solid orange;
+}
+.projects-info-desc img:hover{
+    transform:scale(1.1);
 }
 
 .projects-content-info {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    ;
-    gap: 4vmax;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1.5fr));
+    gap: 6vmax;
 }
 
 .projects-info-desc p {
-    font-size: 1.2vmax;
+    font-size: 1.4vmax;
 }
 
 .text {
-    color: blue;
+    color:orangered;
     margin: -2.8vmax 0vmax 3vmax 1vmax;
     font-size: bolder;
     font-size: 4vmax;
 }
 
-@media(max-width:900px) {
+@media(max-width:790px) {
     .projects-content-info {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        ;
-        gap: 3vmax;
+        grid-template-columns: repeat(auto-fill, minmax(310px, 2.5fr));
+        gap: 8vmax;
     }
 
 

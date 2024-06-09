@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets';
 import './Navbar.css';
 const Navbar = () => {
     const menuRef=useRef();
-    const [pass, setPass] = useState("home");
+    const [pass, setPass] = useState("");
 
     const openMenu=()=>{
         menuRef.current.style.right="0";
